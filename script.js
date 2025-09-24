@@ -2,7 +2,7 @@
 const ctaBtn = document.getElementById('cta-btn');
 if (ctaBtn) {
   ctaBtn.addEventListener('click', () => {
-    alert('✅ You clicked Learn More! Replace this with your own feature.');
+    alert('Test');
   });
 }
 
@@ -18,3 +18,4 @@ if (contactForm) {
     contactForm.reset();
   });
 }
+
