@@ -1,0 +1,99 @@
+/* ---------- GLOBAL ---------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* ✅ Change background colour */
+  color: #333;
+}
+
+a { text-decoration: none; color: #004aad; } /* ✅ Link colour */
+
+/* ---------- HEADER ---------- */
+.site-header {
+  background: #004aad; /* ✅ Primary blue */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo img {
+  max-height: 50px; /* ✅ Adjust to your logo size */
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid gold; /* ✅ Highlight active page */
+}
+
+/* ---------- HERO ---------- */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom right, #004aad, gold); /* ✅ Blue & gold theme */
+  color: white;
+}
+
+.hero h1 { font-size: 2.5rem; }
+.hero p { font-size: 1.2rem; max-width: 600px; margin: 20px auto; }
+.hero button {
+  background: gold;
+  color: #004aad;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ---------- FEATURES ---------- */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: white;
+}
+
+.feature {
+  max-width: 300px;
+  text-align: center;
+}
+
+/* ---------- CONTACT FORM ---------- */
+#contact-form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contact-form button {
+  background: #004aad;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #004aad;
+  color: white;
+}
